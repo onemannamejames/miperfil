@@ -99,3 +99,24 @@ del menu principal*/
     	width: 80%;		   	 /* 7 - Se agrega un ancho*/
     	margin: 0 auto;		/* 8 - Truco - A traves de margenes se centran los modulos*/
 }
+
+/* Work */
+.Work{
+    	margin-top: 2em;            /* 1 - Agregamos margen entre modulo de trabajos y mi perfil*/
+	text-align: center;         /* 5 - Centramos pie de fotos*/
+}
+
+.Work-item{
+	display: inline-block;      /* 2 - Permite que las imagenes sean responsive*/
+	margin: 0 20px 20px 0;  /* 3 - Se agrega margenes entre elementos */
+}
+
+.Work-imageContainer{
+	 margin: 0;                 /* 4 - Elimanos margenes adiciones del contenedor de imagenes*/
+}
+
+.Work-description{
+	font-size: 16px;           /* 6 - Se agrega tamaño de letra*/
+	color: #515151;            /* 7 - Se agrega color gris*/
+	font-style: italic;        /* 8 - Se agrega estilo de fuente*/
+}
